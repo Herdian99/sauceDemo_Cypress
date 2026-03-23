@@ -2,6 +2,7 @@ require('dotenv').config()
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  projectId: 'k9jper',
   allowCypressEnv: true,
 
   e2e: {
