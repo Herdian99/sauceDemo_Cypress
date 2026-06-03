@@ -23,5 +23,3 @@ describe('remove from cart', () => {
     cy.get('[data-test="shopping-cart-badge"]').should('contain', '1')
   })
 });
-
-// echo
